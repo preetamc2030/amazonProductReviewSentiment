@@ -12,7 +12,7 @@ from flask import Flask, request, jsonify, render_template
 import nltk
 
 # Load trained Pipeline
-model = joblib.load('C:/Users/sayan/Downloads/Amazon_Alexa_Product_Review_Sentiment_Analysis/sentiment_model.pkl')
+model = joblib.load('models/sentiment_model.pkl')
 
 stopwords = list(STOP_WORDS)
 
