@@ -124,9 +124,9 @@
     <br><br>
     {{ prediction_text }}
     {% if prediction_text == "Positive" %}
-    <img src="{{ url_for('static', filename='Images/positive.png') }}?v=1" alt="Positive Sentiment" style="width: 150px; margin-top: 20px;">
+    <img src="{{ url_for('static', filename='Images/Positive.png') }}?v=1" alt="Positive Sentiment" style="width: 150px; margin-top: 20px;">
     {% elif prediction_text == "Negative" %}
-    <img src="{{ url_for('static', filename='Images/negative.png') }}?v=1" alt="Negative Sentiment" style="width: 150px; margin-top: 20px;">
+    <img src="{{ url_for('static', filename='Images/Negative.png') }}?v=1" alt="Negative Sentiment" style="width: 150px; margin-top: 20px;">
     {% endif %}
     <p style="font-size: 12px; margin-top: 20px;">Powered by Machine Learning and Natural Language Processing</p>
   </div>
